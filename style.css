@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #a0f0f3;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    height: 250px;
+    width: 550px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .input-group,
+  .output-group {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  
+  input,
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #convert {
+    background-color: #0c110c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto; /* to center the button horizontally */
+    display: block; /* to center the button horizontally */
+}
+
+  #result {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  
+  /* Optional styling for a more visually appealing result display */
+  #result.success {
+    color: #b9d9ec;
+  }
+  
+  #result.error {
+    color: #e53935;
+  }
+  
